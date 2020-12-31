@@ -36,3 +36,13 @@ Route::get('/test3/{id?}', function ($id = "ahmed") {
 Route::get('/test4', function () {
     return "Hello From Routes With Name";
 })->name('test4');
+
+//  Route Group
+Route::group(['prefix' => 'users'], function () {
+    route::get('/', function () {
+        return 'Hello From Users';
+    });
+    route::get('/tests', function() {
+        return 'Hello From Users Test';
+    });
+});
