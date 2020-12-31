@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a82a29-89fc-42c0-ae60-0ec013950270" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/img/avataaars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/cabin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/cake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/circus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/safe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/submarine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/design/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/FirstController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/FirstController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +182,7 @@
       <recent name="C:\xampp\htdocs\starter\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\public\design" />
       <recent name="C:\xampp\htdocs\starter\app\Http\Controllers\Front" />
     </key>
   </component>
@@ -191,7 +206,7 @@
       <workItem from="1609426838619" duration="1310000" />
       <workItem from="1609428411477" duration="1747000" />
       <workItem from="1609431352632" duration="6228000" />
-      <workItem from="1609451652064" duration="1402000" />
+      <workItem from="1609451652064" duration="2794000" />
     </task>
     <servers />
   </component>

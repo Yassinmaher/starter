@@ -66,3 +66,5 @@ Route::resource('user', UsersController::class);
 // Route Get View From Controller
 Route::get('/index', [FirstController::class, 'returnIndex']);
 
+// Route Landing Page
+Route::view('/landing', 'landing');
