@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Front\FirstController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +48,11 @@ Route::group(['prefix' => 'users'], function () {
         return 'Hello From Users Test';
     });
 });
+
+// Route Namespace With Controller
+Route::group(['prefix' => 'front'], function () {
+    Route::get('/', [FirstController::class, 'home']);
+    Route::get('/login', [FirstController::class, 'login']);
+});
+
+
