@@ -50,9 +50,13 @@ Route::group(['prefix' => 'users'], function () {
 });
 
 // Route Namespace With Controller
-Route::group(['prefix' => 'front'], function () {
+Route::group(['prefix' => 'front', 'middleware'=>'auth'], function () {
     Route::get('/', [FirstController::class, 'home']);
     Route::get('/login', [FirstController::class, 'login']);
 });
+
+Route::get('login', function () {
+    return "You Must Login First";
+})->name('login');
 
 
