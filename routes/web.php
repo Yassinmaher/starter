@@ -63,3 +63,6 @@ Route::get('login', function () {
 // Route Resource
 Route::resource('user', UsersController::class);
 
+// Route Get View From Controller
+Route::get('/index', [FirstController::class, 'returnIndex']);
+

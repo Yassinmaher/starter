@@ -16,4 +16,10 @@ class FirstController extends Controller
     public function login() {
         return 'Hello From Login';
     }
+
+    //  Return Index File
+    public function returnIndex() {
+        return view('welcome');
+    }
+
 }
