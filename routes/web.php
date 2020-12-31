@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Front\FirstController;
+use App\Http\Controllers\UsersController;
 
 
 /*
@@ -59,4 +60,6 @@ Route::get('login', function () {
     return "You Must Login First";
 })->name('login');
 
+// Route Resource
+Route::resource('user', UsersController::class);
 
