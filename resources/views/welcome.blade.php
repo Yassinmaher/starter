@@ -21,9 +21,21 @@
         </style>
     </head>
     <body class="antialiased">
-        <p>Hello My Name Is {{ $name  }} and My Age is {{ $age  }}</p>
-        <p>{{__('messages.welcome')}}</p>
-        <p>{{ __('messages.world')  }}</p>
+{{--        <p>Hello My Name Is {{ $name  }} and My Age is {{ $age  }}</p>--}}
+{{--        <p>{{__('messages.welcome')}}</p>--}}
+{{--        <p>{{ __('messages.world')  }}</p>--}}
+
+        @forelse($data as $_data)
+            @if($_data == 'Ahmed')
+                <p style="color: #F00">Hello My Name Is {{$_data}}</p>
+            @elseif($_data == 'Yassin')
+                <p style="color: #00F">Hello My Name Is {{$_data}}</p>
+            @else
+                <p>Hello My Name Is {{$_data}}</p>
+            @endif
+            @empty
+            <p>Sorry there is no names</p>
+        @endforelse
 
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))

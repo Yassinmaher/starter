@@ -19,10 +19,10 @@ class FirstController extends Controller
 
     //  Return Index File
     public function returnIndex() {
-        $data = [];
-        $data['name']="Ahmed";
-        $data['age']=12;
-        return view('welcome', $data);
+        $data = ['Ahmed', 'Yassin', 'Mohammed'];
+//        $data['name']="Ahmed";
+//        $data['age']=12;
+        return view('welcome', compact('data'));
     }
 
 }
