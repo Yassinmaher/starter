@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a82a29-89fc-42c0-ae60-0ec013950270" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/avataaars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/cabin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/cake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/circus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/safe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio/submarine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/mail/jqBootstrapValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/design/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +163,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang\ar" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang" />
       <recent name="C:\xampp\htdocs\starter\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -206,7 +200,7 @@
       <workItem from="1609426838619" duration="1310000" />
       <workItem from="1609428411477" duration="1747000" />
       <workItem from="1609431352632" duration="6228000" />
-      <workItem from="1609451652064" duration="2794000" />
+      <workItem from="1609451652064" duration="4025000" />
     </task>
     <servers />
   </component>
