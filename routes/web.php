@@ -68,3 +68,6 @@ Route::get('/index', [FirstController::class, 'returnIndex']);
 
 // Route Landing Page
 Route::view('/landing', 'landing');
+
+// Route About Page
+Route::view('/about', 'about');
