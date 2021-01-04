@@ -81,3 +81,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
 
 // Route For Facebook Reditect
 Route::get('/redirect/{service}', [SocialController::class, 'redirect']);
+
+// Route For Facebook Callback
+Route::get('/callback/{service}', [SocialController::class, 'callback']);
