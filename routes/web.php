@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SocialController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Front\FirstController;
 use App\Http\Controllers\UsersController;
@@ -77,3 +78,6 @@ Auth::routes(['verify' => true]);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
     ->name('home')
     ->middleware('verified');
+
+// Route For Facebook Reditect
+Route::get('/redirect/{service}', [SocialController::class, 'redirect']);
