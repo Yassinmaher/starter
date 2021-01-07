@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CrudContoller;
 use App\Http\Controllers\SocialController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Front\FirstController;
@@ -79,8 +80,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
     ->name('home')
     ->middleware('verified');
 
-// Route For Facebook Reditect
+// Route For Facebook Redirect
 Route::get('/redirect/{service}', [SocialController::class, 'redirect']);
 
 // Route For Facebook Callback
 Route::get('/callback/{service}', [SocialController::class, 'callback']);
+
+// Route For Fillable
+Route::get('/fillable', [CrudContoller::class, 'getOffers']);
