@@ -88,3 +88,8 @@ Route::get('/callback/{service}', [SocialController::class, 'callback']);
 
 // Route For Fillable
 Route::get('/fillable', [CrudContoller::class, 'getOffers']);
+
+// Route Group For Eloquent
+Route::group(['prefix' => 'offers'], function() {
+   Route::get('/store', [CrudContoller::class, 'store']);
+});

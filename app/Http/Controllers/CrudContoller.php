@@ -11,4 +11,13 @@ class CrudContoller extends Controller
 //        return Offer::get();
         return Offer::select('name', 'price')->get();
     }
+
+    public function store() {
+        Offer::create([
+            'name' => 'Offer4',
+            'price' => '3000',
+            'details' => 'Offer details'
+        ]);
+    }
+
 }
