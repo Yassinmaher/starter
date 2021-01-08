@@ -91,5 +91,7 @@ Route::get('/fillable', [CrudContoller::class, 'getOffers']);
 
 // Route Group For Eloquent
 Route::group(['prefix' => 'offers'], function() {
-   Route::get('/store', [CrudContoller::class, 'store']);
+//   Route::get('/store', [CrudContoller::class, 'store']);
+    Route::get('/create', [CrudContoller::class, 'create']);
+    Route::post('/store', [CrudContoller::class, 'store'])->name('store');
 });

@@ -12,12 +12,22 @@ class CrudContoller extends Controller
         return Offer::select('name', 'price')->get();
     }
 
-    public function store() {
+    public function store(Request $request) {
+//        Offer::create([
+//            'name' => 'Offer4',
+//            'price' => '3000',
+//            'details' => 'Offer details'
+//        ]);
         Offer::create([
-            'name' => 'Offer4',
-            'price' => '3000',
-            'details' => 'Offer details'
+            'name' => $request->name,
+            'price'=>$request->price,
+            'details'=>$request->details
         ]);
+        return 'Data inserted Successfully';
+    }
+
+    public function create() {
+        return view('offers.create');
     }
 
 }

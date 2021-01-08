@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a82a29-89fc-42c0-ae60-0ec013950270" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CrudContoller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudContoller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +224,7 @@
       <workItem from="1609953353376" duration="28000" />
       <workItem from="1609965674892" duration="6221000" />
       <workItem from="1610029030149" duration="2436000" />
-      <workItem from="1610057055314" duration="1380000" />
+      <workItem from="1610057055314" duration="3294000" />
     </task>
     <servers />
   </component>
