@@ -24,18 +24,30 @@
 </head>
 <body class="antialiased">
     <form method="post" action="{{ route('store') }}">
+        @if(Session::has('success'))
+        <div class="alert-success">{{Session::get('success')}}</div>
+        @endif
         @csrf
         <div class="form-group">
             <label>Offer Name</label>
-            <input type="text" class="form-control"placeholder="Offer Name" name="name">
+            <input type="text" class="form-control"placeholder="Offer Name" name="name" value="{{ old('name') }}">
+            @error('name')
+                <div class="alert-danger">{{$message}}</div>
+            @enderror
         </div>
         <div class="form-group">
             <label>Offer Price</label>
-            <input type="text" class="form-control" placeholder="Offer Price" name="price">
+            <input type="text" class="form-control" placeholder="Offer Price" name="price" value="{{ old('price') }}">
+            @error('price')
+            <div class="alert-danger">{{$message}}</div>
+            @enderror
         </div>
         <div class="form-group">
             <label>Offer Details</label>
-            <input type="text" class="form-control" placeholder="Offer Details" name="details">
+            <input type="text" class="form-control" placeholder="Offer Details" name="details" value="{{ old('details') }}">
+            @error('details')
+            <div class="alert-danger">{{$message}}</div>
+            @enderror
         </div>
         <button type="submit" class="btn btn-primary">Save Offer</button>
     </form>

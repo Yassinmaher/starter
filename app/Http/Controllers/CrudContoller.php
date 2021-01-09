@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Offer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Symfony\Component\Console\Input\Input;
 
 class CrudContoller extends Controller
 {
@@ -20,7 +21,7 @@ class CrudContoller extends Controller
         $validator = Validator::make($request->all(), $rules, $messages);
 
         if ($validator->fails()) {
-            return $validator->errors();
+            return redirect()->back()->withInput($request->all())->withErrors($validator);
         }
 
         Offer::create([
@@ -28,7 +29,7 @@ class CrudContoller extends Controller
             'price'=>$request->price,
             'details'=>$request->details
         ]);
-        return 'Data inserted Successfully';
+        return redirect()->back()->with(['success' => 'Data Inserted Successfully']);
     }
 
     public function create() {
